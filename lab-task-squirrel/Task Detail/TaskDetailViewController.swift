@@ -132,6 +132,7 @@ class TaskDetailViewController: UIViewController {
         mapView.addAnnotation(annotation)
         
     }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 
             // Segue to Detail View Controller
@@ -140,8 +141,8 @@ class TaskDetailViewController: UIViewController {
                  photoViewController.task = task
               }
           }
-      }
     }
+}
 
     
 
